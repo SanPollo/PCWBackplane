@@ -1,6 +1,7 @@
 # PCW Backplane
 
 1. [Introduction](#introduction)
+2. [Features](#features)
 2. [Warning](#warning)
 3. [Licence](#licence)
 3. [BOM](#bom)
