@@ -25,7 +25,7 @@ Inspired by [TotO](https://www.cpcwiki.eu/forum/profile/?u=290)'s MotherX4, and 
 - Allows up to four expansion boards to be connected to the computer.
 - Has the same pin arrangement as the PCW's expansion edge connector so existing expansions can be connected without redesigning the board.
 - Multiple backplanes can be daisy chained if need be.
-- For 5V it can either use the PCW's internal power, or an optional external 5V power supply should more current be required. 
+- For 5V it can either use the PCW's internal power, or an optional external 5V power supply, should more current be required. 
 
 
 ![image](images/PCWBackplanePhoto.jpg)
