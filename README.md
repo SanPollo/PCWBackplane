@@ -16,7 +16,7 @@ PCW Backplane is an open source expansion backplane for the Amstrad PCW series o
 
 The PCB is less than 100mm x 100mm, so it can be ordered cheaply from your favourite PCB manufacturer. I recommend [JLCPCB](https://jlcpcb.com/), and you can find the [gerbers here](gerbers/PCWBackplaneV1.1.zip). You can also find [this project on PCBWay](https://www.pcbway.com/project/shareproject/PCW_Backplane_7ff77698.html).
 
-Inspired by [TotO](https://www.cpcwiki.eu/forum/profile/?u=290)'s MotherX4, and [revaldinho](https://github.com/revaldinho/)'s [MX4 expansion backplanes](https://github.com/revaldinho/cpc_ram_expansion/wiki/CPC-Expansion-Backplane) for the Amstrad CPC, it uses headers with the same number of pins. However, please read the warning below.
+Inspired by [TotO](https://www.cpcwiki.eu/forum/profile/?u=290)'s MotherX4, and [revaldinho](https://github.com/revaldinho/)'s [MX4 expansion backplanes](https://github.com/revaldinho/cpc_ram_expansion/wiki/CPC-Expansion-Backplane) for the Amstrad CPC, it uses headers with the same number of pins. However, please read the [warning below](#warning).
 
 ![image](images/PCWBackplane3DRender.jpg)
 
@@ -25,12 +25,12 @@ Inspired by [TotO](https://www.cpcwiki.eu/forum/profile/?u=290)'s MotherX4, and 
 - Allows up to four expansion boards to be connected to the computer.
 - Has the same pin arrangement as the PCW's expansion edge connector so existing expansions can be connected without redesigning the board.
 - Multiple backplanes can be daisy chained if need be.
-- For 5V it can either use the PCW's internal power, or an optional external 5V power supply if more current is required. The 
+- For 5V it can either use the PCW's internal power, or an optional external 5V power supply should more current be required. 
 
 
 ![image](images/PCWBackplanePhoto.jpg)
 
-_*NB:* This picture is for illustrating the orientation only; I have not yet been able to get [Habi's DK'Tronics Sound & Joystick clone](https://www.habisoft.com/pcwwiki/doku.php?id=es:hardware:perifericos:dksound) working with or without the backplane. I suspect this is an issue with my 8256, but will not be able to confirm until my 8512 is up and running!_
+_*NB:* This picture is for illustrating the orientation only; I have not yet been able to get [Habi's DK'Tronics Sound & Joystick clone](https://www.habisoft.com/pcwwiki/doku.php?id=es:hardware:perifericos:dksound) working either with or without the backplane. I suspect this is an issue with my 8256, but will not be able to confirm until my 8512 is up and running!_
 
 <br/>
 
@@ -57,7 +57,7 @@ This project is licensed under the [CERN Open Hardware Licence Version 2: CERN-O
 | +5V |  1  | Barrel Connector 90-deg 5.5mm x 2.1mm |
 | C1, C2 | 2 | 22uF 16V electrolytic capacitor * |
 | C3, C4 | 2 | 22uF 50V electrolytic capacitor * |
-| EXT1, EXT2, EXT3, EXT4 | 4 | 2x25-pin KEYED female header ** |
+| EXT1, EXT2, EXT3, EXT4 | 4 | 2x25-pin **keyed** female header ** |
 | IN, OUT | 2 | 2x25-pin 90-deg box header |
 | CABLE | 2 | 2X25-pin IDC connector |
 | CABLE | 1 | 50-pin ribbon cable |
@@ -67,7 +67,7 @@ This project is licensed under the [CERN Open Hardware Licence Version 2: CERN-O
 
 \* You can use 50V capacitors for C1 and C2 as well, but C3 and C4 are for the 12V line so they require at least 24V tolerance.
 
-** Do **not** use unkeyed headers. They are much cheaper but you risk damaging the expansion, and the computer itself, if you accidentally plug an expansion in misaligned. I did this with an MX4 card in a CPC, and was very lucky that nothing bad happened. Keyed headers can be found on [AliExpress](https://www.aliexpress.com/).
+** **Do not use unkeyed headers.** They are much cheaper but you risk damaging the expansion, and the computer itself, if you accidentally plug an expansion in misaligned. I did this with an MX4 card in a CPC, and was very lucky that nothing bad happened. Keyed headers can be found on [AliExpress](https://www.aliexpress.com/).
 
 <br />
 
