@@ -25,7 +25,7 @@ Inspired by [TotO](https://www.cpcwiki.eu/forum/profile/?u=290)'s MotherX4, and 
 - Allows up to four expansion boards to be connected to the computer.
 - Has the same pin arrangement as the PCW's expansion edge connector so existing expansions can be connected without redesigning the board.
 - Multiple backplanes can be daisy chained if need be.
-- Can use either internal PCW power, or an optional external +5V power supply if more current is required.
+- For 5V it can either use the PCW's internal power, or an optional external 5V power supply if more current is required. The 
 
 
 ![image](images/PCWBackplanePhoto.jpg)
@@ -63,6 +63,7 @@ This project is licensed under the [CERN Open Hardware Licence Version 2: CERN-O
 | CABLE | 1 | 50-pin ribbon cable |
 | PCW EXT | 1 | 1x3-pin header |
 | PCW EXT | 1 | Jumper |
+| STANDOFFS | - | Appropriate M2-sized standoffs / spacers |
 
 \* You can use 50V capacitors for C1 and C2 as well, but C3 and C4 are for the 12V line so they require at least 24V tolerance.
 
