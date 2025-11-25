@@ -2,7 +2,7 @@
 
 1. [Introduction](#introduction)
 2. [Features](#features)
-2. [Warning](#warning)
+2. [WARNING](#warning)
 3. [Licence](#licence)
 3. [BOM](#bom)
 4. [Cable Orientation](#cable-orientation)
@@ -34,7 +34,7 @@ _*NB:* This picture is for illustrating the orientation only; I have not yet bee
 
 <br/>
 
-## Warning
+## WARNING
 
 Despite using the same headers as MX4 backplanes, **the two are not compatible**.
 
