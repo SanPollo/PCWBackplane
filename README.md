@@ -14,7 +14,7 @@
 
 PCW Backplane is an open source expansion backplane for the Amstrad PCW series of computers. It has been designed in such a way to allow existing expansion boards to be used without the need to modify them, as long as the edge connector is located at one end of the board.
 
-The PCB is less than 100mm x 100mm, so it can be ordered cheaply from your favourite PCB manufacturer. I recommend [JLCPCB](https://jlcpcb.com/), and you can find the [gerbers here](gerbers/PCWBackplaneV1.1.zip). You can also find [this project on PCBWay](https://www.pcbway.com/project/shareproject/PCW_Backplane_7ff77698.html).
+The PCB is less than 100mm x 100mm, so it can be ordered cheaply from your favourite PCB manufacturer. I recommend [JLCPCB](https://jlcpcb.com/), and you can find the [gerbers here](raw/gerbers/PCWBackplaneV1.1.zip). You can also find [this project on PCBWay](https://www.pcbway.com/project/shareproject/PCW_Backplane_7ff77698.html).
 
 Inspired by [TotO](https://www.cpcwiki.eu/forum/profile/?u=290)'s MotherX4, and [revaldinho](https://github.com/revaldinho/)'s [MX4 expansion backplanes](https://github.com/revaldinho/cpc_ram_expansion/wiki/CPC-Expansion-Backplane) for the Amstrad CPC, it uses headers with the same number of pins. However, please read the warning below.
 
