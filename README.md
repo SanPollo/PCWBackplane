@@ -25,6 +25,8 @@ Inspired by [TotO](https://www.cpcwiki.eu/forum/profile/?u=290)'s MotherX4, and 
 
 ![image](images/PCWBackplane3DRender.jpg)
 
+<br />
+
 ## Features
 
 - Allows up to four expansion boards to be connected to the computer.
