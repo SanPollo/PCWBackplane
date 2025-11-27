@@ -2,11 +2,16 @@
 
 1. [Introduction](#introduction)
 2. [Features](#features)
+3. [Compatible Expansions](#compatible-expansions)
 2. [WARNING](#warning)
 3. [Licence](#licence)
 3. [BOM](#bom)
 4. [Cable Orientation](#cable-orientation)
 5. [Changelog](#changelog)
+
+<br />
+
+![image](images/PCWBackplanePhoto.jpg)
 
 <br />
 
@@ -27,12 +32,15 @@ Inspired by [TotO](https://www.cpcwiki.eu/forum/profile/?u=290)'s MotherX4, and 
 - Multiple backplanes can be daisy chained if need be.
 - For 5V it can either use the PCW's internal power, or an optional external 5V power supply, should more current be required. 
 
+<br />
 
-![image](images/PCWBackplanePhoto.jpg)
+## Compatible Expansions
 
-_*NB:* This picture is for illustrating the orientation only; I have not yet been able to get [Habi's DK'Tronics Sound & Joystick clone](https://www.habisoft.com/pcwwiki/doku.php?id=es:hardware:perifericos:dksound) working either with or without the backplane. I suspect this is an issue with my 8256, but will not be able to confirm until my 8512 is up and running!_
+As I test more expansions, I will add them this list. However, theoretically, any expansion should work without issue. If you have tested another expansion with the PCW Backplane, please raise an Issue letting me know, and I will update the list.
 
-<br/>
+- [DK'tronics Sound & Joystick clone](https://www.habisoft.com/pcwwiki/doku.php?id=es:hardware:perifericos:dksound)
+
+<br />
 
 ## WARNING
 
