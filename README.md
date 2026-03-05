@@ -41,6 +41,7 @@ Inspired by [TotO](https://www.cpcwiki.eu/forum/profile/?u=290)'s MotherX4, and 
 As I test more expansions, I will add them this list. However, theoretically, any expansion should work without issue. If you have tested another expansion with the PCW Backplane, please raise an Issue letting me know, and I will update the list.
 
 - [DK'tronics Sound & Joystick clone](https://www.habisoft.com/pcwwiki/doku.php?id=es:hardware:perifericos:dksound)
+- [PerryFi: Wifi Modem](https://github.com/SanPollo/PerryFi)
 
 <br />
 
@@ -98,5 +99,6 @@ The photos below show the orientation of the cable. There will be a twist betwee
 Corrected the silkscreen for the EXT headers, removed the RESET button, and added the remaining silkscreen I had intended to previously.
 
 ### v1.0 (Unreleased)
+
 
 Prototype, shown in the pictures, which had the silkscreen for the EXT headers the wrong way around and a RESET button. The RESET button was removed as the RESET line on the PCW's expansion connector is not connected to the pin on the Z80, but is instead a signal the the PCW sends to expansions when it is reset.
