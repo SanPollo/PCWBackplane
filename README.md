@@ -40,8 +40,8 @@ Inspired by [TotO](https://www.cpcwiki.eu/forum/profile/?u=290)'s MotherX4, and 
 
 As I test more expansions, I will add them this list. However, theoretically, any expansion should work without issue. If you have tested another expansion with the PCW Backplane, please raise an Issue letting me know, and I will update the list.
 
-- [DK'tronics Sound & Joystick clone](https://www.habisoft.com/pcwwiki/doku.php?id=es:hardware:perifericos:dksound)
-- [PerryFi: Wifi Modem](https://github.com/SanPollo/PerryFi)
+- [DK'tronics Sound & Joystick Clone](https://www.habisoft.com/pcwwiki/doku.php?id=es:hardware:perifericos:dksound)
+- [PerryFi - Wifi Expansion Card](https://github.com/SanPollo/PerryFi2)
 
 <br />
 
